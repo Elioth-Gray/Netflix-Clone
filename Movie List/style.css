@@ -1,0 +1,157 @@
+@import url('https://fonts.googleapis.com/css2?family=Agbalumo&family=Kanit&family=Kenia&family=Poppins:wght@300;400;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    background-color: #000;
+    color: #fff;
+    height: 100vh;
+}
+
+.header{
+    width: 100%;
+    height: 100vh;
+    padding: 10px 8%;
+    position: relative;
+    background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url(images/Baxkground.jpg);
+    background-size: 120%;
+    background-position: center;
+
+}
+
+
+.navbar img{
+    size: 50%;
+
+}
+
+.header .navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    margin: 10px 0;
+    padding-left: 4rem;
+    padding-right: 4rem;
+
+    
+
+   
+   
+}
+
+.logo img{
+    width: 150px;
+
+}
+
+.btn-container{
+    display: flex;
+}
+
+.btn-container button{
+    border: 0;
+    outline: 0;
+    background: #db0001;
+    color: #ffff;
+    padding: 7px 20px;
+    font-size: 13px;
+    border-radius: 4px;
+    margin-left: 10px;
+    cursor: pointer;
+    font-weight: 2000;
+    height: 2rem;
+   
+}
+
+.btn-container .btn-b{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    background: transparent;
+    border: 1px solid #ffff;
+    padding: 7px 20px;
+    margin-left: 10px;
+    
+    
+}
+
+.btn-container .btn-b img{
+    width: 10px;
+    
+}
+
+.btn-container .btn-b i{
+    margin-right: 10px;
+    align-items: center;
+    justify-content: center;
+}
+
+.header-content{
+    
+    
+    text-align: center;
+    margin-top: 11rem;
+    
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.header .header-content h1{
+ font-size: 45px;   
+ font-weight: bolder;
+}
+
+.header-content h3{
+    margin: 20px 0;
+}
+
+.sign-up{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    margin-top: 30px;
+    width: 100%;
+    
+}
+
+
+
+.sign-form input{
+    background: #000; opacity: 30%;;
+    width: 600px;
+    padding: 20px 30px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    color: #ffff;
+    
+}
+
+
+
+.sign-form input::placeholder{
+    opacity: 100%;
+}
+
+.sign-btn input{
+    
+    background-color: #db0001;
+    color: white;
+    padding: 20px 30px;
+    margin: 8px 0;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  
+}
